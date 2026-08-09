@@ -1,125 +1,200 @@
 <!DOCTYPE html>
 <html lang="ar" dir="rtl">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>علي عباس - تكسي خاص</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<style>
-* {
-  box-sizing: border-box;
-}
+  <title>علي عباس - تكسي خاص</title>
 
-body {
-  margin: 0;
-  font-family: Arial, sans-serif;
-  background: #0b0b0b;
-  color: white;
-  text-align: center;
-}
+  <style>
+    * {
+      box-sizing: border-box;
+    }
 
-.container {
-  max-width: 600px;
-  margin: auto;
-  padding: 20px;
-}
+    body {
+      margin: 0;
+      background: #080808;
+      color: white;
+      font-family: Arial, Tahoma, sans-serif;
+    }
 
-.card {
-  background: linear-gradient(145deg, #151515, #050505);
-  border: 2px solid #d4af37;
-  border-radius: 25px;
-  padding: 18px;
-  box-shadow: 0 0 30px rgba(212,175,55,.25);
-}
+    .container {
+      width: 100%;
+      max-width: 650px;
+      margin: auto;
+      padding: 15px;
+    }
 
-.car-image {
-  width: 100%;
-  border-radius: 18px;
-  display: block;
-  margin-bottom: 20px;
-}
+    .card {
+      background: linear-gradient(145deg, #181818, #050505);
+      border: 2px solid #d4af37;
+      border-radius: 25px;
+      overflow: hidden;
+      box-shadow: 0 0 35px rgba(212, 175, 55, 0.25);
+    }
 
-h1 {
-  color: #d4af37;
-  font-size: 38px;
-  margin: 10px 0;
-}
+    .hero-image {
+      width: 100%;
+      display: block;
+      height: auto;
+    }
 
-.subtitle {
-  font-size: 25px;
-  margin-bottom: 20px;
-}
+    .content {
+      padding: 25px 20px 30px;
+      text-align: center;
+    }
 
-.phone {
-  font-size: 24px;
-  margin: 20px 0;
-  direction: ltr;
-}
+    h1 {
+      margin: 0;
+      color: #d4af37;
+      font-size: 40px;
+      font-weight: bold;
+    }
 
-.info {
-  font-size: 21px;
-  line-height: 1.9;
-  margin: 20px 0;
-}
+    .subtitle {
+      margin-top: 8px;
+      font-size: 25px;
+      font-weight: bold;
+    }
 
-.whatsapp {
-  display: block;
-  background: #25D366;
-  color: white;
-  text-decoration: none;
-  padding: 18px;
-  border-radius: 15px;
-  font-size: 23px;
-  font-weight: bold;
-  margin-top: 25px;
-}
+    .phone {
+      margin-top: 15px;
+      font-size: 23px;
+      direction: ltr;
+    }
 
-.whatsapp:active {
-  transform: scale(.98);
-}
+    .services {
+      margin-top: 25px;
+      display: grid;
+      gap: 12px;
+    }
 
-.footer {
-  color: #d4af37;
-  margin-top: 20px;
-  font-size: 16px;
-}
-</style>
+    .service {
+      background: #111;
+      border: 1px solid #333;
+      border-radius: 14px;
+      padding: 15px 10px;
+      font-size: 19px;
+    }
+
+    .service strong {
+      color: #d4af37;
+    }
+
+    .whatsapp {
+      display: block;
+      margin-top: 25px;
+      padding: 18px 15px;
+      border-radius: 15px;
+      background: #25D366;
+      color: white;
+      text-decoration: none;
+      font-size: 22px;
+      font-weight: bold;
+      box-shadow: 0 8px 20px rgba(37, 211, 102, 0.25);
+    }
+
+    .call {
+      display: block;
+      margin-top: 12px;
+      padding: 16px 15px;
+      border-radius: 15px;
+      background: #d4af37;
+      color: #080808;
+      text-decoration: none;
+      font-size: 21px;
+      font-weight: bold;
+    }
+
+    .footer {
+      margin-top: 25px;
+      color: #aaa;
+      font-size: 15px;
+      line-height: 1.7;
+    }
+
+    .gold {
+      color: #d4af37;
+    }
+  </style>
 </head>
 
 <body>
 
-<div class="container">
-  <div class="card">
+  <div class="container">
 
-    <img src="taxi.jpg" class="car-image" alt="علي عباس تكسي خاص">
+    <div class="card">
 
-    <h1>علي عباس</h1>
+      <!-- صورة الإعلان -->
+      <img
+        src="IMG_2734.png"
+        class="hero-image"
+        alt="علي عباس - تكسي خاص"
+      >
 
-    <div class="subtitle">🚕 تكسي خاص</div>
+      <div class="content">
 
-    <div class="phone">
-      +964 771 006 6513
-    </div>
+        <h1>علي عباس</h1>
 
-    <div class="info">
-      🚗 تكسي خاص إلى جميع محافظات العراق<br>
-      🗺️ المحافظات الشمالية والجنوبية<br>
-      🕌 زيارة العتبات المقدسة<br>
-      ⭐ خدمة مريحة وآمنة
-    </div>
+        <div class="subtitle">
+          🚕 تكسي خاص
+        </div>
 
-    <a class="whatsapp"
-       href="https://wa.me/9647710066513?text=السلام%20عليكم،%20أريد%20الاستفسار%20عن%20التكسي"
-       target="_blank">
-       🟢 تواصل معي عبر واتساب
-    </a>
+        <div class="phone">
+          +964 771 006 6513
+        </div>
 
-    <div class="footer">
-      للحجز والاستفسار اتصل أو راسلني عبر واتساب
+        <div class="services">
+
+          <div class="service">
+            🚗 <strong>تكسي خاص</strong><br>
+            إلى جميع محافظات العراق
+          </div>
+
+          <div class="service">
+            🗺️ <strong>رحلات المحافظات</strong><br>
+            الشمالية والجنوبية
+          </div>
+
+          <div class="service">
+            🕌 <strong>زيارة العتبات المقدسة</strong><br>
+            رحلات خاصة ومريحة
+          </div>
+
+          <div class="service">
+            ⭐ <strong>خدمة مريحة وآمنة</strong><br>
+            التزام بالمواعيد وراحة المسافر
+          </div>
+
+        </div>
+
+        <!-- واتساب مباشر -->
+        <a
+          class="whatsapp"
+          href="https://wa.me/9647710066513?text=السلام%20عليكم،%20أريد%20الاستفسار%20عن%20خدمة%20التكسي"
+          target="_blank"
+        >
+          🟢 تواصل معي عبر واتساب
+        </a>
+
+        <!-- اتصال مباشر -->
+        <a
+          class="call"
+          href="tel:+9647710066513"
+        >
+          📞 اتصال مباشر
+        </a>
+
+        <div class="footer">
+          جميع الحقوق محفوظة<br>
+          <span class="gold">علي عباس — تكسي خاص</span>
+        </div>
+
+      </div>
+
     </div>
 
   </div>
-</div>
 
 </body>
 </html>

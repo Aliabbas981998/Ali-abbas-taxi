@@ -3,6 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
   <title>علي عباس - تكسي خاص</title>
 
   <style>
@@ -13,7 +14,6 @@
     body {
       margin: 0;
       background: #080808;
-      color: white;
       font-family: Arial, Tahoma, sans-serif;
     }
 
@@ -25,7 +25,7 @@
     }
 
     .card {
-      background: linear-gradient(145deg, #181818, #050505);
+      background: #080808;
       border: 2px solid #d4af37;
       border-radius: 25px;
       overflow: hidden;
@@ -34,87 +34,45 @@
 
     .hero-image {
       width: 100%;
-      display: block;
       height: auto;
-    }
-
-    .content {
-      padding: 25px 20px 30px;
-      text-align: center;
-    }
-
-    h1 {
-      margin: 0;
-      color: #d4af37;
-      font-size: 40px;
-      font-weight: bold;
-    }
-
-    .subtitle {
-      margin-top: 8px;
-      font-size: 25px;
-      font-weight: bold;
-    }
-
-    .phone {
-      margin-top: 15px;
-      font-size: 23px;
-      direction: ltr;
-    }
-
-    .services {
-      margin-top: 25px;
-      display: grid;
-      gap: 12px;
-    }
-
-    .service {
-      background: #111;
-      border: 1px solid #333;
-      border-radius: 14px;
-      padding: 15px 10px;
-      font-size: 19px;
-      line-height: 1.6;
-    }
-
-    .service strong {
-      color: #d4af37;
-    }
-
-    .whatsapp {
       display: block;
-      margin-top: 25px;
+    }
+
+    .buttons {
+      padding: 20px 18px 25px;
+    }
+
+    .whatsapp,
+    .call {
+      display: block;
+      width: 100%;
       padding: 18px 15px;
       border-radius: 15px;
-      background: #25D366;
-      color: white;
+      text-align: center;
       text-decoration: none;
       font-size: 22px;
       font-weight: bold;
+      margin-bottom: 12px;
+    }
+
+    .whatsapp {
+      background: #25D366;
+      color: white;
       box-shadow: 0 8px 20px rgba(37, 211, 102, 0.25);
     }
 
     .call {
-      display: block;
-      margin-top: 12px;
-      padding: 16px 15px;
-      border-radius: 15px;
       background: #d4af37;
       color: #080808;
-      text-decoration: none;
-      font-size: 21px;
-      font-weight: bold;
+      margin-bottom: 0;
+      box-shadow: 0 8px 20px rgba(212, 175, 55, 0.2);
     }
 
     .footer {
-      margin-top: 25px;
+      text-align: center;
       color: #aaa;
-      font-size: 15px;
-      line-height: 1.7;
-    }
-
-    .gold {
-      color: #d4af37;
+      font-size: 14px;
+      padding: 0 10px 18px;
     }
   </style>
 </head>
@@ -125,48 +83,16 @@
 
     <div class="card">
 
+      <!-- صورة الإعلان -->
       <img
         src="./E749A6D2-FE65-46BC-8750-BCC238637FE6.jpeg"
         class="hero-image"
         alt="علي عباس - تكسي خاص"
       >
 
-      <div class="content">
+      <div class="buttons">
 
-        <h1>علي عباس</h1>
-
-        <div class="subtitle">
-          🚕 تكسي خاص
-        </div>
-
-        <div class="phone">
-          +964 771 006 6513
-        </div>
-
-        <div class="services">
-
-          <div class="service">
-            🚗 <strong>تكسي خاص</strong><br>
-            إلى جميع محافظات العراق
-          </div>
-
-          <div class="service">
-            🗺️ <strong>رحلات المحافظات</strong><br>
-            الشمالية والجنوبية
-          </div>
-
-          <div class="service">
-            🕌 <strong>زيارة العتبات المقدسة</strong><br>
-            رحلات خاصة ومريحة
-          </div>
-
-          <div class="service">
-            ⭐ <strong>خدمة مريحة وآمنة</strong><br>
-            التزام بالمواعيد وراحة المسافر
-          </div>
-
-        </div>
-
+        <!-- واتساب مباشر -->
         <a
           class="whatsapp"
           href="https://wa.me/9647710066513?text=السلام%20عليكم،%20أريد%20الاستفسار%20عن%20خدمة%20التكسي"
@@ -175,6 +101,7 @@
           🟢 تواصل معي عبر واتساب
         </a>
 
+        <!-- اتصال مباشر -->
         <a
           class="call"
           href="tel:+9647710066513"
@@ -182,11 +109,10 @@
           📞 اتصال مباشر
         </a>
 
-        <div class="footer">
-          للحجز والاستفسار اتصل أو راسلني عبر واتساب<br>
-          <span class="gold">علي عباس — تكسي خاص</span>
-        </div>
+      </div>
 
+      <div class="footer">
+        علي عباس — تكسي خاص
       </div>
 
     </div>
